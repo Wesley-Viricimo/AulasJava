@@ -1,4 +1,4 @@
-package io.github.WesleyViricimo;
+package io.github.WesleyViricimo.FuncoesParaStrings;
 
 public class FuncoesParaStrings {
 

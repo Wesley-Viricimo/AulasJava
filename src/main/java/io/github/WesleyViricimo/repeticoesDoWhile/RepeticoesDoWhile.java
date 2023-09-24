@@ -1,4 +1,4 @@
-package io.github.WesleyViricimo;
+package io.github.WesleyViricimo.repeticoesDoWhile;
 
 import java.util.Locale;
 import java.util.Scanner;
