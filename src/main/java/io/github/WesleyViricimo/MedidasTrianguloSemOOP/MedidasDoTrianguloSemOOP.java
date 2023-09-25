@@ -23,7 +23,7 @@ public class MedidasDoTrianguloSemOOP {
         double p = (xA + xB + xC) / 2.0;
         double areaX = Math.sqrt(p * (p - xA) * (p * xB) * (p * xC)); //Função Math.sqrt é para encontrar raiz quadrada
 
-        p = (xA + xB + xC) / 2.0;
+        p = (yA + yB + yC) / 2.0;
         double areaY = Math.sqrt(p * (p - yA) * (p * yB) * (p * yC)); //Função Math.sqrt é para encontrar raiz quadrada
 
         System.out.printf("Área do triângulo x: %.4f%n", areaX); //%.4f%n é para imprimir o valor com 4 casas decimais
