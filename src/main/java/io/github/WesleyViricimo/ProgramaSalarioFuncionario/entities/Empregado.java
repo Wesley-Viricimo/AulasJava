@@ -10,7 +10,7 @@ public class Empregado {
     }
 
     public double aumentoSalario(double aumento) {
-        return salarioBruto * (aumento / 100);
+        return salarioBruto * (1 + (aumento / 100));
     }
 
     public String toString() {

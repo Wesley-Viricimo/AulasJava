@@ -26,7 +26,7 @@ public class ProgramaSalarioFuncionario {
         System.out.println();
         System.out.print("Informe o percentual de aumento do salário bruto: ");
         double aumento = sc.nextDouble();
-        empregado.aumentoSalario(aumento);
+        empregado.salarioBruto = empregado.aumentoSalario(aumento);
 
         System.out.println();
         System.out.println("Informações do funcionário: " + empregado);
