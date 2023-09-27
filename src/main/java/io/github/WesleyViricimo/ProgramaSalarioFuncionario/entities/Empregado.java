@@ -9,7 +9,7 @@ public class Empregado {
         return salarioBruto - imposto;
     }
 
-    public double aumentoSalario(double aumento) {
+    public double aumentoSalario(double aumento) { 
         return salarioBruto * (1 + (aumento / 100));
     }
 
@@ -22,4 +22,5 @@ public class Empregado {
                 + ", Salário líquido $"
                 + String.format("%.2f", salarioLiquido());
     }
+
 }
