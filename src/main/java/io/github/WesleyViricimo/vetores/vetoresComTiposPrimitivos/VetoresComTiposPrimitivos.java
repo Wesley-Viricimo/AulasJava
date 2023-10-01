@@ -22,7 +22,7 @@ public class VetoresComTiposPrimitivos {
 
         double media = soma / n;
 
-        System.out.println("Média de altura é: " + media);
+        System.out.printf("Média de altura é: %.2f%n", media);
 
         sc.close();
     }
