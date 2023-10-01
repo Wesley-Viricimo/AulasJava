@@ -9,7 +9,7 @@ public class Empregado {
         return salarioBruto - imposto;
     }
 
-    public double aumentoSalario(double aumento) { 
+    public double aumentoSalario(double aumento) {
         return salarioBruto * (1 + (aumento / 100));
     }
 
